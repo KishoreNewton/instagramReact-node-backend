@@ -1,0 +1,92 @@
+{
+<<<<<<< HEAD
+  "name": "clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/server.ts",
+    "deploy": "prisma deploy",
+    "generate": "prisma generate",
+    "prisma": "npm run deploy && npm run generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.2.4",
+    "@graphql-tools/merge": "^6.2.4",
+    "@sendgrid/mail": "^7.3.0",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/morgan": "^1.9.1",
+    "@types/nodemailer": "^6.4.0",
+    "@types/passport": "^1.0.4",
+    "@types/passport-jwt": "^3.0.3",
+    "apollo-server": "^2.18.2",
+    "apollo-server-express": "^2.18.2",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^4.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.7.8",
+    "merge-schemas": "^0.2.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.14",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "prisma-client-lib": "^1.34.10",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.5"
+=======
+  "name": "instagram",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-apollo-hooks": "^0.5.0",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-toastify": "^6.2.0",
+    "rl-react-helmet": "^5.2.0",
+    "styled-components": "^5.2.1",
+    "styled-reset": "^4.3.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+>>>>>>> dd7a747492b74be90d07e72d9b2854670f5139e4
+  }
+}
